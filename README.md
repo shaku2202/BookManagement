@@ -12,5 +12,23 @@ Backend
 
 Backend: [Link to deployed backend](https://bookmanagement-ono2.onrender.com/)  
 
-## Directory Structure
+## Features
+
+- CRUD operations for managing books.
+- User authentication and authorization.
+- API endpoints for handling book requests.
+- Database schema for book storage.
+
+## Design Decisions or Assumptions
+
+- Designed for scalability and performance.
+- Assumes users are authenticated before accessing book-related endpoints.
+
+## Installation & Getting Started
+
+1. Clone the repository: `git clone https://github.com/yourusername/backend-book-management.git`
+2. Install dependencies: 
+   ```bash
+   cd backend-book-management/backend
+   npm install
 
