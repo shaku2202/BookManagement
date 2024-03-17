@@ -37,21 +37,24 @@ Start the server: npm start
 Usage
 Ensure that the backend server is running and accessible at the specified port (e.g., http://localhost:4500).
 
-##Credentials
+## Credentials
 Please Go through Code Base
 
-##APIs Used
+## APIs Used
 Express.js for API routing and middleware.
 MongoDB for database storage.
 JWT for user authentication and authorization.
 
-##API Endpoints
-GET /api/books - Retrieve all books
-POST /api/books - Create a new book
-GET /api/books/:id - Retrieve a book by ID
-PUT /api/books/:id - Update an existing book
-DELETE /api/books/:id - Delete a book by ID
-Technology Stack
+## API Endpoints
+
+- GET /book - Retrieve all books
+- POST /book/add - Create a new book
+- PATCH /book/update/:id - Update an existing book
+- DELETE /book/delete/:id - Delete a book by ID
+- POST /book/buy/:id - Buy a book
+- POST /book/borrow/:id - Borrow a book
+
+## Technology Stack
 Node.js
 Express.js
 MongoDB
