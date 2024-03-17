@@ -55,9 +55,9 @@ JWT for user authentication and authorization.
 - POST /book/borrow/:id - Borrow a book
 
 ## Technology Stack
-Node.js<br>
-Graphql<br>
-Express.js<br>
-MongoDB<br>
-JWT for authentication<br>
-Other libraries/modules as needed
+- Node.js<br>
+- Graphql<br>
+- Express.js<br>
+- MongoDB<br>
+- JWT for authentication<br>
+- Other libraries/modules as needed
