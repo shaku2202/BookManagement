@@ -9,7 +9,7 @@ app.use('/user',userRouter);
 app.use('/book',bookRouter);
 
 app.get('/',(req,res)=>{
-    res.json({msg:"Hello"});
+    res.json({msg:"Hello !, Welcome to backend of Book Management"});
 })
 
 app.listen(4500,async()=>{
