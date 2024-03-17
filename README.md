@@ -32,3 +32,28 @@ Backend: [Link to deployed backend](https://bookmanagement-ono2.onrender.com/)
    cd backend-book-management/backend
    npm install
 
+Set up environment variables for database connection and JWT secret.
+Start the server: npm start
+Usage
+Ensure that the backend server is running and accessible at the specified port (e.g., http://localhost:4500).
+
+##Credentials
+Please Go through Code Base
+
+##APIs Used
+Express.js for API routing and middleware.
+MongoDB for database storage.
+JWT for user authentication and authorization.
+
+##API Endpoints
+GET /api/books - Retrieve all books
+POST /api/books - Create a new book
+GET /api/books/:id - Retrieve a book by ID
+PUT /api/books/:id - Update an existing book
+DELETE /api/books/:id - Delete a book by ID
+Technology Stack
+Node.js
+Express.js
+MongoDB
+JWT for authentication
+Other libraries/modules as needed
