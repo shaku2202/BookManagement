@@ -26,7 +26,7 @@ Backend: [Link to deployed backend](https://bookmanagement-ono2.onrender.com/)
 
 ## Installation & Getting Started
 
-1. Clone the repository: `git clone https://github.com/yourusername/backend-book-management.git`
+1. Clone the repository: `https://github.com/shaku2202/BookManagement`
 2. Install dependencies: 
    ```bash
    cd backend-book-management/backend
