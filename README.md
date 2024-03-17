@@ -56,8 +56,8 @@ JWT for user authentication and authorization.
 
 ## Technology Stack
 Node.js<br>
-Graphql
-Express.js
-MongoDB
-JWT for authentication
+Graphql<br>
+Express.js<br>
+MongoDB<br>
+JWT for authentication<br>
 Other libraries/modules as needed
