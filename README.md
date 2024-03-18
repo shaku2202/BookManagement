@@ -51,6 +51,72 @@ query {
   }
 }
 ```
+getUser
+```graphql
+query {
+  getUser(id: "user_id_here") {
+    _id
+    name
+    email
+    city
+    age
+    role
+  }
+}
+```
+getBook
+```graphql
+query {
+  getBook(id: "book_id_here") {
+    _id
+    title
+    genre
+    author
+    published_year
+  }
+}
+```
+##### Mutations
+registerUser
+```graphql
+mutation {
+  registerUser(name: "John Doe", email: "john@example.com", pass: "password", role: "reader") {
+    _id
+    name
+    email
+    role
+  }
+}
+```
+loginUser
+```graphql
+mutation {
+  loginUser(email: "john@example.com", pass: "password") {
+    access_token
+    refresh_token
+  }
+}
+```
+logoutUser
+```graphql
+mutation {
+  logoutUser {
+    msg
+  }
+}
+```
+addBook
+```graphql
+mutation {
+  addBook(title: "Book Title", genre: "Fantasy", author: "Author Name", published_year: 2022) {
+    _id
+    title
+    genre
+    author
+    published_year
+  }
+}
+```
 
 
 ## Credentials
