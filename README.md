@@ -120,7 +120,7 @@ mutation {
 
 
 ## Credentials
-Please Go through Code Base
+Please refer to the codebase for authentication and credentials handling.
 
 ### Usage
 
