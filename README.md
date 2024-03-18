@@ -26,7 +26,7 @@ Some GraphQL routes require authentication. You need to include an Authorization
 #### Available Routes
 
 ##### Queries
-
+getUsers
 ```graphql
 query {
   getUsers {
@@ -39,8 +39,8 @@ query {
   }
 }
 ```
-```
-query {
+getBooks
+```query {
   getBooks {
     _id
     title
