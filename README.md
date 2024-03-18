@@ -38,6 +38,16 @@ query {
     role
   }
 }
+query {
+  getBooks {
+    _id
+    title
+    genre
+    author
+    published_year
+  }
+}
+
 ```
 
 
