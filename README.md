@@ -122,10 +122,16 @@ mutation {
 ## Credentials
 Please Go through Code Base
 
-## APIs Used
-Express.js for API routing and middleware.
-MongoDB for database storage.
-JWT for user authentication and authorization.
+### Usage
+
+1. **Register as a User:** Start by registering as a user to gain access to the library functionalities.
+
+2. **Explore Available Books:** Browse through the library to discover the wide range of books available.
+
+3. **Borrow or Buy Books:** Choose the desired book and opt to either borrow it or buy it, based on your preference and availability.
+
+4. **Administrator Actions:** If you're an administrator, log in to access advanced features like adding, updating, or deleting books from the system.
+
 
 ## API Endpoints
 
