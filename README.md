@@ -39,8 +39,8 @@ query {
   }
 }
 ```
-#####getBooks
-```
+getBooks
+```graphql
 query {
   getBooks {
     _id
@@ -50,7 +50,6 @@ query {
     published_year
   }
 }
-
 ```
 
 
