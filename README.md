@@ -142,10 +142,11 @@ Please Go through Code Base
 - POST /book/buy/:id - Buy a book
 - POST /book/borrow/:id - Borrow a book
 
-## Technology Stack
-- Node.js<br>
-- Graphql<br>
-- Express.js<br>
-- MongoDB<br>
-- JWT for authentication<br>
-- Other libraries/modules as needed
+### Technology Stack
+
+- **Node.js:** Backend JavaScript runtime.
+- **Express.js:** Web application framework for Node.js.
+- **GraphQL:** Query language and runtime for APIs.
+- **MongoDB:** NoSQL database for data storage.
+- **Mongoose:** MongoDB object modeling tool for Node.js.
+- **Other** libraries/modules as needed
