@@ -40,7 +40,8 @@ query {
 }
 ```
 getBooks
-```query {
+```
+query {
   getBooks {
     _id
     title
