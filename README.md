@@ -3,6 +3,11 @@
 ### Introduction
 
 Welcome to the Book Management System API, a powerful solution for efficiently managing books, borrowing, and purchasing. This API provides administrators with comprehensive tools for book management while enabling users to seamlessly borrow, buy, and explore books.
+Backend
+
+## Deployed App
+
+Backend: [Link to deployed backend](https://bookmanagement-ono2.onrender.com/) 
 
 ### Features
 
