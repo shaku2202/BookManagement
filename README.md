@@ -1,41 +1,45 @@
-# Backend Book Management System
+## Book Management System API
 
-## Introduction
+### Introduction
 
-The Backend Book Management System is a Node.js application designed to handle the backend functionality of a book management system. It provides APIs for managing books, users, and authentication.
+Welcome to the Book Management System API, a powerful solution for efficiently managing books, borrowing, and purchasing. This API provides administrators with comprehensive tools for book management while enabling users to seamlessly borrow, buy, and explore books.
 
-## Project Type
+### Features
 
-Backend
+- **Admin Privileges:** Administrators have full control over managing books within the system.
+- **User Interactions:** Users can borrow books, buy books, and access the available library.
 
-## Deployed App
+### GraphQL Routes Documentation
 
-Backend: [Link to deployed backend](https://bookmanagement-ono2.onrender.com/)  
+#### Introduction
 
-## Features
+This document provides an overview of the GraphQL routes available in the Book Management System application. GraphQL is a query language for APIs that enables clients to request only the data they need, allowing for more efficient and flexible data retrieval.
 
-- CRUD operations for managing books.
-- User authentication and authorization.
-- API endpoints for handling book requests.
-- Database schema for book storage.
+#### Getting Started
 
-## Design Decisions or Assumptions
+To interact with the GraphQL API, you can use tools like Postman or GraphQL Playground. The GraphQL endpoint is located at `/graphql`. Ensure that the server is running before making requests to the GraphQL API.
 
-- Designed for scalability and performance.
-- Assumes users are authenticated before accessing book-related endpoints.
+#### Authentication
 
-## Installation & Getting Started
+Some GraphQL routes require authentication. You need to include an Authorization header with a valid access token to access these routes. The access token should be obtained by logging in using the `loginUser` mutation.
 
-1. Clone the repository: `https://github.com/shaku2202/BookManagement`
-2. Install dependencies: 
-   ```bash
-   cd backend-book-management/backend
-   npm install
+#### Available Routes
 
-Set up environment variables for database connection and JWT secret.
-Start the server: npm start
-Usage
-Ensure that the backend server is running and accessible at the specified port (e.g., http://localhost:4500).
+##### Queries
+
+```graphql
+query {
+  getUsers {
+    _id
+    name
+    email
+    city
+    age
+    role
+  }
+}
+```
+
 
 ## Credentials
 Please Go through Code Base
